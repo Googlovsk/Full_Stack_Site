@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AmmoTime</title>
+
+    <link rel="stylesheet" href="./frontend/css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost&family=Roboto+Slab&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="nav-bar" id="nav-target">
+            <a class="header-logo" id="logo" href="index.html">AmmoTime</a>
+            <script src="./frontend/components/navItem.js"></script>
+            <div class="account">
+                <a class="nav_link" href="#">Аккаунт</a>
+                <img src="./frontend/images/basket.png" alt="">
+            </div>
+        </div>
+    </header>
+    <div class="content">
+        <div class="product">
+            <div class="product-title-box">
+                <h2 class="product-title">Холодное оружие ручной работы</h2>
+            </div>
+            <div class="product-container">
+                <div class="slider" id="all-weapon-list"></div>
+            </div>
+        </div>
+    </div>
+    <script type="module" src="./frontend/components/allItems.js"></script>
+</body>
+</html>

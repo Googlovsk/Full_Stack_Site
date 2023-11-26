@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AmmoTime</title>
+
+    <link rel="stylesheet" href="./frontend/css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost&family=Roboto+Slab&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="nav-bar" id="nav-target">
+            <a class="header-logo" id="logo" href="index.html">AmmoTime</a>
+            <script src="./frontend/components/navItem.js"></script>
+            <div class="account">
+                <a class="nav_link" href="#">Аккаунт</a>
+                <img src="./frontend/images/basket.png" alt="">
+            </div>
+        </div>
+    </header> 
+    <div class="content">
+        <p class="addItemTitle">Добавление товара</p>
+        <form class="product-form" id="weapon-add-form">
+            <div class="form-container">
+                <h2>Добавление оружия</h2>
+                <input id="weapon-name" class="form-control" placeholder="Название Оружия">
+                <input id="weapon-info" class="form-control" placeholder="Информация об оружии">
+                <input id="weapon-weight" class="form-control" placeholder="Вес оружия">
+                <input id="weapon-dmgType" class="form-control" placeholder="Тип наносимого урона">
+                <input id="weapon-price" class="form-control" placeholder="Цена">
+                <input id="weapon-img" class="form-control" placeholder="Вставте ссылку на фото">
+            </div>
+            <button class="btn-form" id="button-add-weapon">Добавить товар</button>
+        </form>
+        <form class="product-form" id="armor-add-form">
+            <div class="form-container">
+                <h2>Добавление брони</h2>
+                <input id="armor-name" class="form-control" placeholder="Название элемента брони">
+                <input id="armor-info" class="form-control" placeholder="Информация о броне">
+                <input id="armor-weight" class="form-control" placeholder="Вес брони">
+                <input id="armor-price" class="form-control" placeholder="Цена">
+                <input id="armor-img" class="form-control" placeholder="Вставте ссылку на фото">
+            </div>
+            <button class="btn-form" id="button-add-armor">Добавить товар</button>
+        </form>
+    </div>
+    <script type="module" src="./frontend/components/addItems.js"></script>
+</body>
+</html>

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AmmoTime</title>
+
+    <link rel="stylesheet" href="./frontend/css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost&family=Roboto+Slab&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="nav-bar" id="nav-target">
+                <a class="header-logo" href="#">AmmoTime</a>
+                <script src="./frontend/components/navItem.js"></script>
+                <div class="account">
+                    <a class="nav_link" href="#">Аккаунт</a>
+                    <img src="./frontend/images/basket.png" alt="">
+                </div>
+            </div>
+        </header> 
+        <div class="main">
+            <div class="content">
+                <div class="welcome-container">
+                    <img class="welcome-image" src="/frontend/images/welcome.png" alt="">
+                    <div class="welcome-text-container">
+                        <h1>А ты</h1>
+                        <p>уже купил снаряжание для бугурта? </br>Нет? Тогда тебе сюда!</br>У нас самый качественный товар</p>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="product-title-box">
+                        <h2 class="product-title">Холодное оружие ручной работы</h2>
+                        <a class="title-button btn-primary" id="weaponAllProducts">Все товары</a>
+                    </div>
+                    <div class="product-container">
+                        <div class="slider" id="weapon-list"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="content">
+                <div class="welcome-container">
+                    <img class="welcome-image" src="/frontend/images/armor.png" alt="">
+                    <div class="welcome-text-container">
+                        <h1>DEUS VULT</h1>
+                        <p>Защитите свою веру и честь в наших доспехах изготовленных лучшими мастерами со всего света!</p>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="product-title-box">
+                        <h2 class="product-title">Защитное снаряжение ручной работы</h2>
+                        <a class="title-button btn-primary" id="armorAllProducts">Все товары</a>
+                    </div>
+                    <div class="product-container">
+                        <div class="slider" id="armor-list">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <footer>
+            <div class="footer-content">
+                <a class="logo" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">AmmoTime</a>
+                <div class="footer-links">
+                    <div class="links" style="width: 164px; height: auto;">
+                        <ul>
+                            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Снаряжение на заказ</a>
+                            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Вся продукция</a>
+                            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Inspiration</a>
+                        </ul>
+                    </div>
+                    <div class="links" style="width: 134px; height: auto;">
+                        <ul>
+                            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">О нас</a>
+                            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Блог</a>
+                            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Инвесторам</a>
+                            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Связаться с нами</a>
+                            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">FAQ</a>
+                        </ul>
+                    </div>
+                    <div class="links" style="width: 170px; height: auto;">
+                        <ul>
+                            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Мероприятия по Бугурту</a>
+                            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Bugurt Fest 2023</a>
+                            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">BigCommerce</a>
+                        </ul>
+                        <div class="socNetworks">
+                            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+                                <img src="/frontend/images/fb.png" alt="faceBook">
+                            </a>
+                            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+                                <img src="/frontend/images/twt.png" alt="twitter">
+                            </a>
+                            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+                                <img src="/frontend/images/inst.png" alt="Instagram">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="feedBack">
+                        <p>Будте в курсе наших новостей</p>
+                        <input class="email-field" type="text" placeholder="Ваш email">
+                        <button class="title-button btn-primary">Клик сюда</button>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script type="module" src="/frontend/main.js"></script>
+</body>
+
+</html>
